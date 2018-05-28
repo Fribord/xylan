@@ -32,6 +32,7 @@ Example server config:
 	   %% Keys may be generated with xylan:generate_key(), 
 	   %% if 64 bit big-endian integer is enough. 
 	   %% Otherwise any binary/io-list will do.
+	   %% Other key generators, for example on the net, can be used as well.
            {server_key,  3177648541185394227},  %% server is signing using this key
            {client_key,  12187761947737533676}, %% client is signing using this key
 	   {user_socket_options, [{sndbuf, 4096}]},
